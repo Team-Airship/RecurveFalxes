@@ -1,0 +1,22 @@
+﻿[
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "Replace",
+    "path": "/shapeByType",
+    "value": {
+      "blade-longsword-admin": { "base": "item/tool/blade/admin" },
+      "blade-*-ruined": { "base": "item/tool/blade/ruined/{type}" },
+      "@blade-falx-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)": { "base": "vsfalxrecurve:recurve{metal}" },
+      "*": { "base": "game:item/tool/blade/{type}" }
+    }
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "DependsOn": [ { "modid": "combatoverhaul" } ],
+    "op": "Replace",
+    "path": "/shapeByType/blade-falx-*",
+    "value": {
+      "base": "vsfalxrecurve:recurve{metal}" 
+    }
+  }
+]

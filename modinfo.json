@@ -1,0 +1,13 @@
+{
+    "type": "content",
+    "modid": "vsfalxrecurve",
+    "name": "VSFalxRecurve",
+    "authors": [
+        "Rivvion","DarthSack"
+    ],
+    "description": "Replaces Falx models",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
