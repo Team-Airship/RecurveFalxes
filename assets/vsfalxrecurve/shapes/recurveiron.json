@@ -12,7 +12,7 @@
 		"iron": "game:block/metal/ingot/iron",
 		"metal": "game:block/metal/sheet/iron1",
 		"rivet": "game:block/metal/sheet/lead1",
-		"handle2": "game:item/tool/material/handle"
+		"handle2": "game:item/tool/handle"
 	},
 	"elements": [
 		{
